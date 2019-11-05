@@ -30,7 +30,22 @@ navbar {
 
 /***** MOVIE PAGE *****/
 .movie-page {
-margin: 30px 100px;
-padding: 20px;
-background-color: white;
+  margin: 30px 80px;
+  padding: 20px;
+  background-color: white;
+}
+
+.movie-info {
+  display: flex;
+}
+.movie-info img {
+  padding: 15px;
+  max-width: 25%;
+  margin-right: 30px;
+}
+.movie-details {
+  width: 75%;
+}
+.movie-details p {
+  line-height: 2rem;
 }
