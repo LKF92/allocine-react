@@ -1,22 +1,36 @@
-.App {
-  text-align: center;
+/* NAVBAR */
+body {
+  background-color: #f2f2f2;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+navbar {
+  background-color: #fecc00;
+  height: 15vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  padding: 0 15px;
+}
+.logo-brand {
+  height: 8vh;
+}
+.hero {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-end;
+  height: 35vh;
+  background-image: url(./img/2001-space-odysee.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.movie-title {
+  font-family: montserratSemiBold, Arial, Sans-Serif;
+  font-size: 2.5rem;
   color: white;
+  font-weight: bolder;
 }
 
-.App-link {
-  color: #09d3ac;
+/***** MOVIE PAGE *****/
+.movie-page {
+margin: 30px 100px;
+padding: 20px;
+background-color: white;
 }
